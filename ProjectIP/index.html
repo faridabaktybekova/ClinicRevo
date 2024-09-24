@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revo</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header bg-blue">
+        <nav class="navbar bg-blue">
+            <div class="container flex">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logo.png" alt="site logo">
+                </a>
+                <button type="button" class="navbar-show-btn">
+                    <img src="images/ham-menu-icon.png">
+                </button>
+
+                <div class="navbar-collapse bg-white">
+                    <button type="button" class="navbar-hide-btn">
+                        <img src="images/close-icon.png">
+                    </button>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#doc-panel" class="nav-link">Доктора</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#departments" class="nav-link">Как связаться</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="search-bar">
+                        <form>
+                            <div class="search-bar-box flex">
+                                <span class="search-icon flex">
+                                    <img src="images/search-icon-dark.png">
+                                </span>
+                                <input type="search" class="search-control" placeholder="Найти здесь">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section id="home" class="home py">
+            <div class="header-inner text-white text-center">
+                <div class="container grid">
+                    <div class="header-inner-left">
+                        <h1>Клиника Revo<br> добро пожаловать</h1>
+                        <p class="lead">на наш сайт</p>
+                        <p class="text text-md">
+                            <br>
+                            <br>
+                        </p>
+                        <div class="btn-group">
+                            <a href="signin.html" class="btn btn-white">Регистрация</a>
+                            <a href="signin.html" class="btn btn-light-blue">Авторизация</a>
+                        </div>
+                    </div>
+                    <div class="header-inner-right">
+                        <img src="images/header.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- end of header -->
+
+    <main>
+        <!-- about section -->
+        <section id="about" class="about py">
+            <div class="about-inner">
+                <div class="container grid">
+                    <div class="about-left text-center">
+                        <div class="section-head">
+                            <h2>О нас</h2>
+                            <div class="border-line"></div>
+                        </div>
+                        <p class="text text-lg">Приветствуем вас в клинике Revo!
+
+                            Мы — команда опытных и преданных специалистов, сфокусированных на вашем благополучии. В Revo
+                            мы стремимся к тому, чтобы каждый наш пациент получил высочайший уровень медицинского
+                            обслуживания в уютной и дружелюбной атмосфере.
+                            <br>Наша цель — помогать вам сохранять здоровье и качество жизни. Доверьтесь нам, и мы
+                            сделаем все возможное, чтобы вы чувствовали себя заботой окруженными нашей командой
+                            профессионалов.
+                        </p>
+                        <!-- <a href="#" class="btn btn-white">Узнать больше</a> -->
+                    </div>
+                    <div class="about-right flex">
+                        <div class="img">
+                            <img src="images/about-img.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about section -->
+
+        <!-- banner one -->
+        <section id="banner-one" class="banner-one text-center">
+            <div class="container text-white">
+                <blockquote class="lead"><i class="fas fa-quote-left"></i> Когда вы молоды и здоровы, вам и в голову не
+                    приходит, что за одну секунду вся ваша жизнь может измениться. <i class="fas fa-quote-right"></i>
+                </blockquote>
+                <small class="text text-sm">- Дана и Фарида</small>
+            </div>
+        </section>
+        <!-- end of banner one -->
+
+        <!-- services section -->
+        <section id="services" class="services py">
+            <div class="container">
+                <div class="section-head text-center">
+                    <h2 class="lead">Лучший врач дает меньше всего лекарств</h2>
+                    <!-- <p class="text text-lg">Отличный способ продемонстрировать свои услуги в больнице</p> -->
+                    <!-- <div class="line-art flex">
+                        <div></div>
+                        <img src="images/4-dots.png">
+                        <div></div>
+                    </div> -->
+                </div>
+                <div class="services-inner text-center grid">
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/service-icon-1.png">
+                        </div>
+                        <h3>Обследование легких</h3>
+                        <p class="text text-sm">В обследование легких входят следующие диагностические процедуры:
+                            рентген легких, кт легких, узи легких, диагностика микоплазменной пневмонии у взрослых</p>
+                    </article>
+
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/service-icon-2.png">
+                        </div>
+                        <h3>Лабораторные исследования</h3>
+                        <p class="text text-sm">В лабораторные исследования входят анализы всех типов и сложностей,
+                            тесты на различные заболевания</p>
+                    </article>
+
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/service-icon-3.png">
+                        </div>
+                        <h3>Кардиомониторинг</h3>
+                        <p class="text text-sm">Мы предоставляем такие услуги, как: Электрокардиограмма,
+                            Эхокардиография, Рентгенография грудной клетки, КТ сердца, суточный мониторинг сердца </p>
+                    </article>
+
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/service-icon-4.png">
+                        </div>
+                        <h3>Первая помощь</h3>
+                        <p class="text text-sm">Мы предлагаем экстренные консультации, оказание первой помощи, лечение
+                            небольших травм, управление болевым синдромом и стабилизацию состояния в случае срочных
+                            медицинских ситуаций.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- banner two section -->
+        <!-- <section id="banner-two" class="banner-two text-center">
+            <div class="container grid">
+                <div class="banner-two-left">
+                    <img src="images/banner-2-img.png">
+                </div>
+                <div class="banner-two-right">
+                    <p class="lead text-white">When you are young and healthy, it never occurs to you that in a single
+                        second your whole life could change.</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-white">Learn More</a>
+                        <a href="#" class="btn btn-light-blue">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- end of banner two section -->
+
+        <!-- doctors section -->
+        <section id="doc-panel" class="doc-panel py">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Наши доктора</h2>
+                </div>
+
+                <div class="doc-panel-inner grid">
+                    <div class="doc-panel-item">
+                        <div class="img flex">
+                            <img src="images/doc-1.png" alt="doctor image">
+                            <div class="info text-center bg-blue text-white flex">
+                                <p class="lead">Дмитрий Петров</p>
+                                <p class="text-lg">Пульмонолог</p>
+                            </div>
+                        </div>
+                        <p><br>Дмитрий Петров — опытный врач-пульмонолог с многолетним опытом работы в области лечения
+                            заболеваний дыхательной системы. Он обладает глубокими знаниями в диагностике и лечении
+                            заболеваний легких, а также в управлении астмой, бронхитом, хронической обструктивной
+                            болезнью легких и пневмонией. </p>
+                    </div>
+
+                    <div class="doc-panel-item">
+                        <div class="img flex">
+                            <img src="images/doc-2.png" alt="doctor image">
+                            <div class="info text-center bg-blue text-white flex">
+                                <p class="lead">Екатерина Смирнова</p>
+                                <p class="text-lg">Кардиолог</p>
+                            </div>
+                        </div>
+                        <p><br>Екатерина Смирнова — выдающийся кардиолог с многолетним опытом работы в области
+                            сердечно-сосудистых заболеваний. Ее экспертиза охватывает широкий спектр кардиологических
+                            состояний, включая ишемическую болезнь сердца, аритмии, сердечную недостаточность и
+                            гипертонию. </p>
+                    </div>
+
+                    <div class="doc-panel-item">
+                        <div class="img flex">
+                            <img src="images/doc-3.png" alt="doctor image">
+                            <div class="info text-center bg-blue text-white flex">
+                                <p class="lead">Мария Новикова</p>
+                                <p class="text-lg">Лаборант</p>
+                            </div>
+                        </div>
+                        <p><br>Мария Новикова — опытный лаборант с профессиональным подходом к своей работе. Она
+                            обладает широким спектром навыков и знаний в области лабораторной диагностики и анализа, а
+                            также имеет опыт работы с современным оборудованием и методиками исследований.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of doctors section -->
+
+        <!-- package services section -->
+        <section id="departments" class="departments py text-center">
+            <div class="container">
+                <div class="package-service-head text-white">
+                    <h2>Связь с нашей клиникой в разных ситуациях</h2>
+                </div>
+                <div class="package-service-inner grid">
+                    <div class="package-service-item bg-white">
+                        <div class="icon flex">
+                            <i class="fas fa-phone fa-2x"></i>
+                        </div>
+                        <h3>Экстренный случай</h3>
+                        <p class="text text-sm">Если у вас экстренный случай, то звоните по номеру: +996704563724</p>
+                    </div>
+
+                    <div class="package-service-item bg-white">
+                        <div class="icon flex">
+                            <i class="fas fa-comments fa-2x"></i>
+                        </div>
+                        <h3>Обычный случай</h3>
+                        <p class="text text-sm">Если у вас обычный случай или вы хотите записаться на прием, пишите по
+                            номеру: +996555379105</p>
+                    </div>
+
+                    <div class="package-service-item bg-white">
+                        <div class="icon flex">
+                            <i class="fas fa-phone fa-2x"></i>
+                        </div>
+                        <h3>Скорая помощь</h3>
+                        <p class="text text-sm">Вы также можете вызвать скорую помощь по горячей линии: 911</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of package services section -->
+
+        <!-- posts section -->
+        <section id="blog" class="blog py">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Последние новости</h2>
+                </div>
+                <div class="posts-inner grid">
+                    <article class="post-item bg-white">
+                        <div class="img">
+                            <img src="images/post-1.jpg">
+                        </div>
+                        <div class="content">
+                            <h4>Как реагировать на новые вызовы: клиника Revo внедряет
+                                инновационные методы защиты от COVID-19.</h4>
+                            <p class="text text-sm">Медицинская клиника Revo активно реагирует на изменяющиеся
+                                требования и вызовы, представленные пандемией COVID-19. В целях обеспечения безопасности
+                                пациентов и персонала, мы представляем новейшие методы защиты, включая улучшенные
+                                системы вентиляции, тщательную санитизацию помещений, а также внедрение телемедицинских
+                                консультаций для минимизации физического контакта.
+                            </p>
+                            <p class="text text-sm">Наша команда по-прежнему готова обеспечить вас качественной
+                                медицинской помощью в любых обстоятельствах, соблюдая все
+                                необходимые меры безопасности.</p>
+                            <div class="info flex">
+                                <small class="text text-sm"><i class="fas fa-clock"></i> Май 20, 2024</small>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post-item bg-white">
+                        <div class="img">
+                            <img src="images/post-2.jpg">
+                        </div>
+                        <div class="content">
+                            <h4>Врачи клиники Revo ведут обсуждения о дальнейших планах развития.</h4>
+                            <p class="text text-sm">Врачи медицинской клиники Revo активно участвуют в обсуждениях о
+                                дальнейших планах развития учреждения. В рамках этих дискуссий обсуждаются вопросы о
+                                внедрении новых технологий и методик лечения, расширении спектра предоставляемых услуг,
+                                а также о повышении качества и доступности медицинского обслуживания для наших
+                                пациентов.</p>
+                            <p class="text text-sm">Наша цель — продолжать совершенствовать нашу клинику, чтобы
+                                обеспечить нашим
+                                пациентам лучшее возможное медицинское обслуживание и заботу.</p>
+                            <div class="info flex">
+                                <small class="text text-sm"><br><br><br><i class="fas fa-clock"></i> Май 19,
+                                    2024</small>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post-item bg-white">
+                        <div class="img">
+                            <img src="images/post-3.jpg">
+                        </div>
+                        <div class="content">
+                            <h4>Врачи клиники Revo: Находя выход даже в сложных ситуациях обследования.</h4>
+                            <p class="text text-sm">Врачи медицинской клиники Revo продолжают проявлять высокий
+                                профессионализм и мастерство, находя выход даже из самых сложных ситуаций, возникающих
+                                во время обследования. Благодаря своему опыту и тщательной подготовке, наша команда
+                                способна эффективно реагировать на неожиданные обстоятельства, обеспечивая
+                                высококачественное и безопасное медицинское обслуживание для каждого пациента.
+                            </p>
+                            <p class="text text-sm">Наша цель — обеспечить вам уверенность в заботе и профессиональном
+                                подходе, независимо от сложности ситуации.</p>
+                            <div class="info flex">
+                                <small class="text text-sm"><br><br><i class="fas fa-clock"></i> Май 18, 2024</small>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- end of posts section -->
+
+        <!-- contact section -->
+        <section id="contact" class="contact py">
+            <div class="container grid">
+                <div class="contact-left">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.6268289831164!2d-6.214682984112116!3d53.29621947996855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486709e0c9c80f8f%3A0x92f408d10f2277c2!2sREVO!5e0!3m2!1sen!2snp!4v1636264848776!5m2!1sen!2snp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="contact-right text-white text-center bg-blue">
+                    <div class="contact-head">
+                        <h3 class="lead">Контакты</h3>
+                        <p class="text text-md">Если хотите связаться с нами, напишите ниже</p>
+                    </div>
+                    <form id="contactForm" method="POST" action="process_contact.php">
+                        <div class="form-element">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Ваше имя">
+                        </div>
+                        <div class="form-element">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Ваш email">
+                        </div>
+                        <div class="form-element">
+                            <textarea rows="5" id="message" name="message" placeholder="Ваше сообщение"
+                                class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">
+                            <i class="fas fa-arrow-right"></i> Отправить сообщение
+                        </button>
+                    </form>
+                    <div id="formMessage" class="text-md" style="margin-top: 10px;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div id="registerModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Пациент должен зарегистрироваться</p>
+                <button onclick="window.location.href='signin.html'" class="btn btn-primary">Зарегистрироваться</button>
+            </div>
+        </div>
+
+        <!-- custom js -->
+        <script src="js/script.js"></script>
+        <script>
+            document.getElementById("contactForm").addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                // Показываем модальное окно
+                var modal = document.getElementById("registerModal");
+                var span = document.getElementsByClassName("close")[0];
+
+                modal.style.display = "block";
+
+                // Закрываем модальное окно при нажатии на <span> (x)
+                span.onclick = function () {
+                    modal.style.display = "none";
+                }
+
+                // Закрываем модальное окно при нажатии вне модального окна
+                window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            });
+        </script>
+
+        <style>
+            /* Стили для модального окна */
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                padding-top: 100px;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgb(0, 0, 0);
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+
+            .modal-content {
+                background-color: #fefefe;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+                max-width: 600px;
+                text-align: center;
+            }
+
+            .close {
+                color: #aaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            .btn-primary {
+                background-color: #007bff;
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </main>
+
+    <!-- footer  -->
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <div class="footer-inner text-white py grid">
+                <div class="footer-item">
+                    <h3 class="footer-head">О нас</h3>
+                    <div class="icon">
+                        <img src="images/logo.png">
+                    </div>
+                    <p class="text text-sm">Добро пожаловать в клинику <br> "Revo" - ваш надежный партнер <br> в заботе
+                        о здоровье</p>
+                </div>
+
+                <div class="footer-item">
+                    <h3 class="footer-head">Теги</h3>
+                    <ul class="tags-list flex">
+                        <li>медицинское обслуживание</li>
+                        <li>аварийная ситуация</li>
+                        <li>лечение</li>
+                        <li>хирургия</li>
+                        <li>лекарства</li>
+                        <li>мед. сестра</li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h3 class="footer-head">Наш адрес</h3>
+                    <address>
+                        Медицинская клиника <br>
+                        г. Бишкек <br>
+                        ул. Ч. Айтматова 66 <br>
+                        Кыргызстан
+                    </address>
+                </div>
+
+
+
+                <div class="footer-item">
+                    <h3 class="footer-head">График работы</h3>
+                    <ul class="appointment-info">
+                        <li>8:00 - 18:00</li>
+                        <li>12:00 - 13:00</li>
+                        <li>9:00 - 13:00</li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>revomedic@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>0312 (703) 57-63-92 </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <ul class="flex">
+                    <li><a href="https://www.instagram.com/Clinic_Revo_" class="text-white flex"> <i
+                                class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://wa.me/+996779770397" class="text-white flex"> <i
+                                class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="https://t.me/+1anjbQVLIj1kZDli" class="text-white flex"> <i
+                                class="fab fa-telegram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer  -->
+
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
